@@ -10,10 +10,12 @@ Data Cleaning: Implemented conditional median imputation for missing Age values 
 Feature Engineering: Developed a novel feature FamilySize combining siblings, spouses, parents, and children indicators to capture social grouping patterns.
 Categorical Encoding: Leveraged One-Hot Encoding (pd.get_dummies) for structural conversion of text fields to numeric identifiers.
 Model Pipeline: Trained a Robust Random Forest Classifier with an 80/20 train-test split pattern.
+
 📊 Model Performance Metrics
 Validation Accuracy: 81.01%
 Precision (Survived Class 1): 82%
 Recall (Survived Class 1): 69%
+
 📁 Directory Reference
 Task_1_Titanic_Survival/Titanic_Prediction.ipynb: Complete implementation notebook containing code execution, Feature Importance Plots, and Confusion Matrix analytics.
 
@@ -68,6 +70,7 @@ Environment: Jupyter Notebook
 The model successfully predicts movie ratings with reasonable accuracy
 Features like votes and genre showed strong influence on ratings
 Data preprocessing and feature selection significantly improved performance
+
 🎯 Key Learnings
 ✔ Importance of data cleaning and preprocessing
 ✔ Understanding real-world datasets through EDA
@@ -79,3 +82,49 @@ Implement advanced models like XGBoost / Gradient Boosting
 Perform hyperparameter tuning for better accuracy
 Deploy the project using Streamlit or Flask
 Integrate real-time movie datasets
+
+
+
+🌸Task 3: Iris Flower Classification
+
+🚀 This project was completed as part of my CodSoft Data Science Internship (Task-03)
+🎯 Objective:
+To build a Machine Learning model that classifies iris flowers into:
+🌼 Setosa | 🌷 Versicolor | 🌹 Virginica
+
+📊 Dataset Features
+🌿 Sepal Length & Width
+🌸 Petal Length & Width
+🎯 Species (Target Variable)
+
+⚙️ Workflow
+🔹 Data Preprocessing 🧹
+Checked missing values
+Prepared clean dataset
+🔹 Exploratory Data Analysis (EDA) 📊
+Visualized feature relationships
+Identified patterns between species
+🔹 Model Building 🤖
+K-Nearest Neighbors (KNN)
+Logistic Regression
+Decision Tree
+🔹 Model Evaluation ✅
+Accuracy Score
+Confusion Matrix
+
+🛠️ Tools & Technologies
+🐍 Python
+📊 Pandas & NumPy
+📈 Matplotlib & Seaborn
+🤖 Scikit-learn
+📓 Jupyter Notebook
+
+📈 Results & Insights
+✅ Achieved high accuracy
+🌸 Petal features played a major role in classification
+📊 Clear separation between species observed
+
+🎯 Key Learnings
+✔ Multi-class classification
+✔ Importance of data visualization
+✔ Model comparison & evaluation
