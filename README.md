@@ -18,18 +18,14 @@ Recall (Survived Class 1): 69%
 Task_1_Titanic_Survival/Titanic_Prediction.ipynb: Complete implementation notebook containing code execution, Feature Importance Plots, and Confusion Matrix analytics.
 
 
-🎬 Movie Rating Prediction using Machine Learning
-
+🎬Task 2: Movie Rating Prediction using Machine Learning
 🚀 This project was developed as part of my CodSoft Data Science Internship (Task-02), focusing on building a predictive model to estimate movie ratings based on multiple influencing factors.
 
 📌 Project Objective
-
 The primary goal of this project is to analyze movie data and predict ratings using Machine Learning techniques. By leveraging features such as genre, duration, votes, and cast, the model uncovers patterns that influence audience ratings.
 
 📊 Dataset Description
-
 The dataset contains key attributes of movies, including:
-
 🎭 Genre
 ⏱️ Duration
 👍 Votes
@@ -57,6 +53,7 @@ Linear Regression
 Evaluated performance using:
 Mean Squared Error (MSE)
 R² Score
+
 🛠️ Technologies & Tools
 Programming Language: Python 🐍
 Libraries:
@@ -66,12 +63,12 @@ Matplotlib
 Seaborn
 Scikit-learn
 Environment: Jupyter Notebook
+
 📈 Results & Insights
 The model successfully predicts movie ratings with reasonable accuracy
 Features like votes and genre showed strong influence on ratings
 Data preprocessing and feature selection significantly improved performance
 🎯 Key Learnings
-
 ✔ Importance of data cleaning and preprocessing
 ✔ Understanding real-world datasets through EDA
 ✔ Application of regression models in prediction tasks
