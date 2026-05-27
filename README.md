@@ -16,3 +16,69 @@ Precision (Survived Class 1): 82%
 Recall (Survived Class 1): 69%
 📁 Directory Reference
 Task_1_Titanic_Survival/Titanic_Prediction.ipynb: Complete implementation notebook containing code execution, Feature Importance Plots, and Confusion Matrix analytics.
+
+
+🎬 Movie Rating Prediction using Machine Learning
+
+🚀 This project was developed as part of my CodSoft Data Science Internship (Task-02), focusing on building a predictive model to estimate movie ratings based on multiple influencing factors.
+
+📌 Project Objective
+
+The primary goal of this project is to analyze movie data and predict ratings using Machine Learning techniques. By leveraging features such as genre, duration, votes, and cast, the model uncovers patterns that influence audience ratings.
+
+📊 Dataset Description
+
+The dataset contains key attributes of movies, including:
+
+🎭 Genre
+⏱️ Duration
+👍 Votes
+🎬 Director
+⭐ Actors
+📅 Year
+🌟 Rating (Target Variable)
+⚙️ Workflow
+🔹 1. Data Preprocessing
+Handled missing/null values
+Removed inconsistencies
+Encoded categorical variables (Label Encoding / One-Hot Encoding)
+🔹 2. Exploratory Data Analysis (EDA)
+Visualized data distributions and correlations
+Identified trends affecting movie ratings
+Used graphs to uncover hidden insights
+🔹 3. Feature Engineering
+Selected important features
+Transformed variables for better model performance
+🔹 4. Model Building
+Implemented regression algorithms such as:
+Linear Regression
+(Optional) Random Forest Regressor
+🔹 5. Model Evaluation
+Evaluated performance using:
+Mean Squared Error (MSE)
+R² Score
+🛠️ Technologies & Tools
+Programming Language: Python 🐍
+Libraries:
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Environment: Jupyter Notebook
+📈 Results & Insights
+The model successfully predicts movie ratings with reasonable accuracy
+Features like votes and genre showed strong influence on ratings
+Data preprocessing and feature selection significantly improved performance
+🎯 Key Learnings
+
+✔ Importance of data cleaning and preprocessing
+✔ Understanding real-world datasets through EDA
+✔ Application of regression models in prediction tasks
+✔ Model evaluation and performance tuning
+
+🚀 Future Enhancements
+Implement advanced models like XGBoost / Gradient Boosting
+Perform hyperparameter tuning for better accuracy
+Deploy the project using Streamlit or Flask
+Integrate real-time movie datasets
