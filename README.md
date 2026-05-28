@@ -1,3 +1,7 @@
+# 💼 CodSoft Data Science Internship
+## 📌 Introduction
+This repository contains the projects completed as part of my Data Science Internship at CodSoft. The internship provided hands-on experience in applying machine learning techniques to real-world datasets, strengthening my skills in data analysis, visualization, and model building.
+
 # 🚢 Titanic Survival Prediction
 
 ## 📌 Overview
