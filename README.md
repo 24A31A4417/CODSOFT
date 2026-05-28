@@ -1,130 +1,128 @@
-CODSOFT Internship Tasks 🚀
-This repository contains all the data science and software engineering tasks assigned during my internship at CODSOFT.
+# 🚢 Titanic Survival Prediction
 
-🛳️ Task 1: Titanic Survival Prediction
-📋 Project Overview
-Built a predictive model that determines whether a passenger on the Titanic survived or not based on individual characteristics like Age, Gender, Ticket Class, Fare, and Family Size.
+## 📌 Overview
+This project focuses on predicting passenger survival on the Titanic using machine learning algorithms. It demonstrates end-to-end data analysis, preprocessing, and classification modeling.
 
-🛠️ Technical Implementation
-Data Cleaning: Implemented conditional median imputation for missing Age values relative to Pclass, handled missing values for Embarked, and removed high-cardinality/incomplete columns (Cabin, Name, Ticket).
-Feature Engineering: Developed a novel feature FamilySize combining siblings, spouses, parents, and children indicators to capture social grouping patterns.
-Categorical Encoding: Leveraged One-Hot Encoding (pd.get_dummies) for structural conversion of text fields to numeric identifiers.
-Model Pipeline: Trained a Robust Random Forest Classifier with an 80/20 train-test split pattern.
+## 🎯 Objective
+To build a classification model that predicts whether a passenger survived based on demographic and travel-related features.
 
-📊 Model Performance Metrics
-Validation Accuracy: 81.01%
-Precision (Survived Class 1): 82%
-Recall (Survived Class 1): 69%
+## 📊 Dataset
+- Source: Kaggle Titanic Dataset  
+- Features include:
+  - Passenger Class (Pclass)
+  - Sex
+  - Age
+  - Fare
+  - Embarked
 
-📁 Directory Reference
-Task_1_Titanic_Survival/Titanic_Prediction.ipynb: Complete implementation notebook containing code execution, Feature Importance Plots, and Confusion Matrix analytics.
+## 🛠️ Tech Stack
+- Python
+- Google Colab
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
 
+## ⚙️ Project Workflow
+1. Data Loading and Exploration  
+2. Handling Missing Values  
+3. Feature Encoding (Categorical → Numerical)  
+4. Exploratory Data Analysis (EDA)  
+5. Model Training:
+   - Logistic Regression
+   - Random Forest  
+6. Model Evaluation (Accuracy Score)
 
-🎬Task 2: Movie Rating Prediction using Machine Learning
-🚀 This project was developed as part of my CodSoft Data Science Internship (Task-02), focusing on building a predictive model to estimate movie ratings based on multiple influencing factors.
+## 📈 Key Insights
+- Female passengers had higher survival rates  
+- Higher class passengers (Pclass 1) had better survival chances  
+- Fare and Age influenced survival probability  
 
-📌 Project Objective
-The primary goal of this project is to analyze movie data and predict ratings using Machine Learning techniques. By leveraging features such as genre, duration, votes, and cast, the model uncovers patterns that influence audience ratings.
-
-📊 Dataset Description
-The dataset contains key attributes of movies, including:
-🎭 Genre
-⏱️ Duration
-👍 Votes
-🎬 Director
-⭐ Actors
-📅 Year
-🌟 Rating (Target Variable)
-⚙️ Workflow
-🔹 1. Data Preprocessing
-Handled missing/null values
-Removed inconsistencies
-Encoded categorical variables (Label Encoding / One-Hot Encoding)
-🔹 2. Exploratory Data Analysis (EDA)
-Visualized data distributions and correlations
-Identified trends affecting movie ratings
-Used graphs to uncover hidden insights
-🔹 3. Feature Engineering
-Selected important features
-Transformed variables for better model performance
-🔹 4. Model Building
-Implemented regression algorithms such as:
-Linear Regression
-(Optional) Random Forest Regressor
-🔹 5. Model Evaluation
-Evaluated performance using:
-Mean Squared Error (MSE)
-R² Score
-
-🛠️ Technologies & Tools
-Programming Language: Python 🐍
-Libraries:
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Environment: Jupyter Notebook
-
-📈 Results & Insights
-The model successfully predicts movie ratings with reasonable accuracy
-Features like votes and genre showed strong influence on ratings
-Data preprocessing and feature selection significantly improved performance
-
-🎯 Key Learnings
-✔ Importance of data cleaning and preprocessing
-✔ Understanding real-world datasets through EDA
-✔ Application of regression models in prediction tasks
-✔ Model evaluation and performance tuning
-
-🚀 Future Enhancements
-Implement advanced models like XGBoost / Gradient Boosting
-Perform hyperparameter tuning for better accuracy
-Deploy the project using Streamlit or Flask
-Integrate real-time movie datasets
+## ✅ Results
+Achieved a reliable classification model with strong accuracy and meaningful insights from the dataset.
 
 
+# 🎬 Movie Rating Prediction
 
-🌸Task 3: Iris Flower Classification
+## 📌 Overview
+This project aims to predict movie ratings using machine learning regression techniques based on various attributes like genre, duration, and votes.
 
-🚀 This project was completed as part of my CodSoft Data Science Internship (Task-03)
-🎯 Objective:
-To build a Machine Learning model that classifies iris flowers into:
-🌼 Setosa | 🌷 Versicolor | 🌹 Virginica
+## 🎯 Objective
+To develop a regression model that estimates movie ratings accurately.
 
-📊 Dataset Features
-🌿 Sepal Length & Width
-🌸 Petal Length & Width
-🎯 Species (Target Variable)
+## 📊 Dataset
+The dataset includes:
+- Movie Name
+- Year
+- Duration
+- Genre
+- Votes
+- Director
+- Actors
 
-⚙️ Workflow
-🔹 Data Preprocessing 🧹
-Checked missing values
-Prepared clean dataset
-🔹 Exploratory Data Analysis (EDA) 📊
-Visualized feature relationships
-Identified patterns between species
-🔹 Model Building 🤖
-K-Nearest Neighbors (KNN)
-Logistic Regression
-Decision Tree
-🔹 Model Evaluation ✅
-Accuracy Score
-Confusion Matrix
+## 🛠️ Tech Stack
+- Python
+- Google Colab
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
 
-🛠️ Tools & Technologies
-🐍 Python
-📊 Pandas & NumPy
-📈 Matplotlib & Seaborn
-🤖 Scikit-learn
-📓 Jupyter Notebook
+## ⚙️ Project Workflow
+1. Data Cleaning & Preprocessing  
+2. Handling Missing Values  
+3. Encoding Categorical Variables  
+4. Exploratory Data Analysis (EDA)  
+5. Model Building:
+   - Linear Regression  
+   - Random Forest Regressor  
+6. Model Evaluation:
+   - Mean Absolute Error (MAE)  
+   - R² Score  
 
-📈 Results & Insights
-✅ Achieved high accuracy
-🌸 Petal features played a major role in classification
-📊 Clear separation between species observed
+## 📈 Key Insights
+- Movies with higher votes tend to have better ratings  
+- Genre plays a significant role in rating distribution  
+- Certain directors and actors influence ratings  
 
-🎯 Key Learnings
-✔ Multi-class classification
-✔ Importance of data visualization
-✔ Model comparison & evaluation
+## ✅ Results
+Successfully built a regression model capable of predicting ratings with reasonable accuracy.
+
+
+# 🌸 Iris Flower Classification
+
+## 📌 Overview
+This project classifies iris flowers into different species using machine learning classification algorithms.
+
+## 🎯 Objective
+To build a model that accurately predicts the species of an iris flower based on its physical features.
+
+## 📊 Dataset
+- Built-in Iris dataset from Scikit-learn  
+- Features:
+  - Sepal Length  
+  - Sepal Width  
+  - Petal Length  
+  - Petal Width  
+
+## 🛠️ Tech Stack
+- Python
+- Google Colab
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
+
+## ⚙️ Project Workflow
+1. Data Loading  
+2. Data Visualization & Exploration  
+3. Feature Analysis  
+4. Model Training:
+   - K-Nearest Neighbors (KNN)  
+   - Decision Tree  
+   - Support Vector Machine (SVM)  
+5. Model Evaluation (Accuracy Score)
+
+## 📈 Key Insights
+- Petal length and width are strong predictors  
+- Clear separation between species in feature space  
+
+## ✅ Results
+Achieved high accuracy (~95%+) in classifying iris flower species.
