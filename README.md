@@ -130,3 +130,86 @@ To build a model that accurately predicts the species of an iris flower based on
 
 ## ✅ Results
 Achieved high accuracy (~95%+) in classifying iris flower species.
+
+
+# 📊 Sales Prediction using Machine Learning (CodSoft Internship)
+
+## 📌 Project Overview
+This project focuses on predicting product sales based on advertising expenditures across different platforms such as TV, Radio, and Newspaper. It is developed as part of the **Data Science Internship at CodSoft**.
+
+The goal is to analyze the impact of advertising channels on sales and build machine learning models to forecast future sales accurately.
+
+## 🎯 Objectives
+- Analyze relationships between advertising mediums and sales
+- Build a predictive model using machine learning
+- Compare multiple models for performance evaluation
+- Visualize data trends and model results
+- Improve business decision-making using data insights
+
+## 📂 Dataset
+The dataset consists of advertising budgets and corresponding sales:
+- 📺 TV Advertising Budget
+- 📻 Radio Advertising Budget
+- 📰 Newspaper Advertising Budget
+- 📈 Sales
+
+## 🛠️ Technologies Used
+- Python 🐍
+- Pandas & NumPy
+- Matplotlib & Seaborn 📊
+- Scikit-learn 🤖
+- Google Colab ☁️
+
+## ⚙️ Project Workflow
+### 1️⃣ Data Collection & Loading
+- Dataset uploaded and loaded using Pandas
+### 2️⃣ Data Visualization
+- Correlation Heatmap
+- Scatter Plots (TV, Radio, Newspaper vs Sales)
+- Pairplot for feature relationships
+- Distribution and Box plots
+### 3️⃣ Data Preprocessing
+- Feature selection (TV, Radio, Newspaper)
+- Train-test split
+### 4️⃣ Model Building
+Multiple machine learning models were implemented:
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- K-Nearest Neighbors (KNN)
+- Support Vector Regressor (SVR)
+### 5️⃣ Model Evaluation
+Models were evaluated using:
+- 📊 R² Score (Accuracy)
+- 📉 Mean Absolute Error (MAE)
+- 📉 Mean Squared Error (MSE)
+### 6️⃣ Model Comparison
+- Compared performance of all models
+- Identified best model based on accuracy and error metrics
+### 7️⃣ Prediction
+- Predicted sales for new advertising inputs
+
+## 📊 Visualizations
+- 📈 Actual vs Predicted Sales Graph
+- 📊 Feature Importance Chart
+- 📉 Residual Plot
+- 📊 Model Comparison Graphs
+- 📦 Box Plot (Outlier Detection)
+
+## 🧪 Results
+- Random Forest and Linear Regression showed strong performance
+- TV advertising had the highest impact on sales
+- Model achieved high accuracy with reliable predictions
+
+## 🏁 Conclusion
+This project demonstrates how machine learning can be used to predict sales and optimize advertising strategies. Businesses can leverage these insights to allocate budgets more effectively and maximize revenue.
+
+## 🚀 Future Enhancements
+- Hyperparameter tuning for better accuracy
+- Use advanced models (XGBoost, Gradient Boosting)
+- Deploy model using Streamlit/Flask
+- Real-time prediction system
+
+## 🙌 Acknowledgement
+This project was completed as part of the **CodSoft Data Science Internship Program**.
+
